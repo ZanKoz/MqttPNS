@@ -58,7 +58,7 @@ namespace micro.autom.MqttBroker
 
             ToogleStartButtonThreadSafe(false);
             WriteMainTextBoxThreadSafe("Broker Started" + Environment.NewLine + "Process: " + e.ProcessName + Environment.NewLine + "PID: " + e.ProcessId + Environment.NewLine);
-            Task.Factory.StartNew(() =>
+            Task.Factory.StartNew(() => 
            {
                _watcherClient = new MqttClient("127.0.0.1");
                _watcherClient.MqttMsgPublishReceived += _watcherClient_MqttMsgPublishReceived;
