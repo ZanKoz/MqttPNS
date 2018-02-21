@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MikroAutomPNS", "micro.autom.MqttBroker\MikroAutomPNS.csproj", "{79AEDCE4-A264-40EB-8F88-4EBEBF80ED69}"
-EndProject
-Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "MikroPNSInstaller", "MikroPNSInstaller\MikroPNSInstaller.wixproj", "{639D2C57-63E8-4FC3-8F91-CAA9FB2AC44D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,28 +28,11 @@ Global
 		{79AEDCE4-A264-40EB-8F88-4EBEBF80ED69}.Release|x64.Build.0 = Release|x64
 		{79AEDCE4-A264-40EB-8F88-4EBEBF80ED69}.Release|x86.ActiveCfg = Release|Any CPU
 		{79AEDCE4-A264-40EB-8F88-4EBEBF80ED69}.Release|x86.Build.0 = Release|Any CPU
-		{639D2C57-63E8-4FC3-8F91-CAA9FB2AC44D}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{639D2C57-63E8-4FC3-8F91-CAA9FB2AC44D}.Debug|x64.ActiveCfg = Debug|x86
-		{639D2C57-63E8-4FC3-8F91-CAA9FB2AC44D}.Debug|x86.ActiveCfg = Debug|x86
-		{639D2C57-63E8-4FC3-8F91-CAA9FB2AC44D}.Debug|x86.Build.0 = Debug|x86
-		{639D2C57-63E8-4FC3-8F91-CAA9FB2AC44D}.Release|Any CPU.ActiveCfg = Release|x86
-		{639D2C57-63E8-4FC3-8F91-CAA9FB2AC44D}.Release|x64.ActiveCfg = Release|x86
-		{639D2C57-63E8-4FC3-8F91-CAA9FB2AC44D}.Release|x86.ActiveCfg = Release|x86
-		{639D2C57-63E8-4FC3-8F91-CAA9FB2AC44D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://ioanniskozaris.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = micro.autom.MqttBroker\\MikroAutomPNS.csproj
-		SccProjectName1 = micro.autom.MqttBroker
-		SccLocalPath1 = micro.autom.MqttBroker
-		SccProjectUniqueName2 = MikroPNSInstaller\\MikroPNSInstaller.wixproj
-		SccProjectName2 = MikroPNSInstaller
-		SccLocalPath2 = MikroPNSInstaller
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4811EC7D-E851-4F44-B393-F95321CAAB7D}
 	EndGlobalSection
 EndGlobal

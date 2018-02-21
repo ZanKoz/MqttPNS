@@ -42,7 +42,7 @@
             this.checkBoxStopLogging = new System.Windows.Forms.CheckBox();
             this.groupBoxClient = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkboxOnWindowsStart = new System.Windows.Forms.CheckBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -140,6 +140,7 @@
             this.groupBoxClient.Controls.Add(this.txtBoxSendMessage);
             this.groupBoxClient.Controls.Add(this.label2);
             this.groupBoxClient.Controls.Add(this.txtBoxSendTopic);
+            this.groupBoxClient.Controls.Add(this.checkboxOnWindowsStart);
             this.groupBoxClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             resources.ApplyResources(this.groupBoxClient, "groupBoxClient");
             this.groupBoxClient.Name = "groupBoxClient";
@@ -150,12 +151,12 @@
             resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
             // 
-            // checkBox1
+            // checkboxOnWindowsStart
             // 
-            resources.ApplyResources(this.checkBox1, "checkBox1");
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            resources.ApplyResources(this.checkboxOnWindowsStart, "checkboxOnWindowsStart");
+            this.checkboxOnWindowsStart.Name = "checkboxOnWindowsStart";
+            this.checkboxOnWindowsStart.UseVisualStyleBackColor = true;
+            this.checkboxOnWindowsStart.CheckedChanged += new System.EventHandler(this.CheckboxOnWindowsStart_CheckedChanged);
             // 
             // openFileDialog1
             // 
@@ -276,7 +277,6 @@
             this.Controls.Add(this.labellang);
             this.Controls.Add(this.comboBoxLang);
             this.Controls.Add(this.pictureBoxcloudStatus);
-            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.checkBoxStopLogging);
             this.Controls.Add(this.buttonClearLog);
             this.Controls.Add(this.label1);
@@ -316,7 +316,7 @@
         private System.Windows.Forms.Button buttonClearLog;
         private System.Windows.Forms.CheckBox checkBoxStopLogging;
         private System.Windows.Forms.GroupBox groupBoxClient;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkboxOnWindowsStart;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
