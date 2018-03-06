@@ -23,7 +23,7 @@ namespace micro.autom.MqttBroker
         private readonly RegistryKey _startupKey = Registry.LocalMachine.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
         bool isExitFromIcon = false;
         #endregion
-
+         
 
         public MainForm()
         {
